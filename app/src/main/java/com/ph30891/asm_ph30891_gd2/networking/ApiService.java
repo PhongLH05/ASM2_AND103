@@ -25,7 +25,7 @@ import retrofit2.http.Path;
 import retrofit2.http.QueryMap;
 
 public interface ApiService {
-    public static String BASE_URL = "http://192.168.1.99:3000/";
+    public static String BASE_URL = "http://192.168.213.67:3000/";
     @Multipart
     @POST("/api/register-send-email")
     Call<Response<User>> register(@Part("username") RequestBody username,

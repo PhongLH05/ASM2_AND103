@@ -6,7 +6,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class LocationRequest {
-    public final static String SHOPID = "2509769";
+    public final static String SHOPID = "196378";
     public final static String TokenGHN = "492f6cd2-1637-11f0-95d0-0a92b8726859";
     private LocationService locationService;
 

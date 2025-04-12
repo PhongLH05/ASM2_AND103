@@ -116,6 +116,9 @@ public class MainUserActivity extends AppCompatActivity {
         binding.rcvProduct.setAdapter(adapter);
         adapter.showHandleClick(fruit -> {
             // show details
+            Intent intent =new Intent(MainUserActivity.this, DetailsActivity.class);
+            intent.putExtra("fruit", fruit);
+            startActivity(intent);
         });
     }
 
